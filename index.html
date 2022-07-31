@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Organizador de Números</title>
+</head>
+<body>
+    <section class="index">
+        <div class="container">
+    <form id="ordenar">
+        <h1 class="line animacao-cursor">Organizador de Números :)</h1>
+        <h6>Insira um número</h6>
+        <input type="number" id="value01" placeholder="digite aqui"/>
+        <h6>Insira um número</h6>
+        <input type="number" id="value02" placeholder="digite aqui"/>
+        <h6>Insira um número</h6>
+        <input type="number" id="value03" placeholder="digite aqui"/>
+    </form>
+    <div class="center">
+    <input type="button" id="btn" value="Organizar!" onclick="ordenacao()"/>
+    <div id="resultado"></div>
+</div>
+</div>
+</section>
+</body>
+<script src="script.js"></script>
+</html>

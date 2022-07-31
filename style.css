@@ -1,0 +1,93 @@
+body{
+    background-color: #1f1f1f;
+}
+
+.index h6{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+}
+
+.index input{
+    border: none;
+    background-color: rgba(102, 102, 102, 0.199);
+    color: white;
+}
+
+section .index {
+    width: 100vh;
+    height: 100vh;
+    position: relative;
+    
+}
+
+#btn {
+    border: none;
+    width: 250px;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+#btn:hover {
+ background-color: green;
+}
+
+#resultado {
+    margin-top: 30px;
+    color: white;
+    font-size: 75px;
+    text-align: center;
+}
+#ordenar {
+    text-align: center;
+    
+    
+}
+ .center {
+text-align: center;
+}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.line {
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 2em;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.animacao-cursor {
+    animation: blinkCursor 500ms steps(30) infinite normal, typing 4s steps(30) infinite normal both;
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
+
+@keyframes typing {
+    0%, 10%, 100%{
+        width: 0;
+    }
+    70%, 90%{
+        width: 100%;
+    }
+}
+
