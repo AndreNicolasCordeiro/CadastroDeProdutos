@@ -1,17 +1,20 @@
-# Organizador Numérico
-<p>O Organizador Numérico tem como princípio, organizar os números de forma crescente. O projeto aceita apenas três valores numéricos que serão organizados.</p>
-<h3>Abaixo, uma pequena demonstração de como funciona o projeto.<h6>
-<img src="Animação.gif" />
-<br/>
-<br/>
+# product registration form | HTML + CSS + JAVASCRIPT
 
-# Tecnologias Utilizadas
-<p>As seguintes ferramentas foram utilizadaas para o desenvolvimento do projeto:<p>
-> HTML
-<br/>
-> CSS
-<br/>
-> JavaScript
+The product registration form was built using HTML, CSS and Javascript technologies. The project aims to register a product in a lookup table, in which you have the option to delete or edit the item.
+<br />
+<br />
 
+<img src="./SistemaCadastroProduto.gif"/>
+
+## First Step
+You can launch the application download and open it in any browser using LOCALHOST.
+
+
+## Technologies used:
+> CSS;<br />
+> HTML;<br />
+> JAVASCRIPT 
+
+<br />
 
 | Made with ❤️ by ANDRÉ NICOLAS CORDEIRO ✌️ [LinkedIn](https://www.linkedin.com/in/andr%C3%A9-nicolas-cordeiro-1b755522a/)

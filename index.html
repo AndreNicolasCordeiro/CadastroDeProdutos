@@ -5,26 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Organizador de Números</title>
+    <title>Cadastro de Produtos</title>
 </head>
 <body>
-    <section class="index">
-        <div class="container">
-    <form id="ordenar">
-        <h1 class="line animacao-cursor">Organizador de Números :)</h1>
-        <h6>Insira um número</h6>
-        <input type="number" id="value01" placeholder="digite aqui"/>
-        <h6>Insira um número</h6>
-        <input type="number" id="value02" placeholder="digite aqui"/>
-        <h6>Insira um número</h6>
-        <input type="number" id="value03" placeholder="digite aqui"/>
-    </form>
-    <div class="center">
-    <input type="button" id="btn" value="Organizar!" onclick="ordenacao()"/>
-    <div id="resultado"></div>
-</div>
-</div>
+    <div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+</div >
+    <section class="Container">
+    <div class="Center">
+        <form class="Middle">
+            <h1>Cadastro de Produtos</h1>
+            <p id="Informar"></p>
+            <input type="text" id="name" placeholder="Digite o nome do produto..." />
+            <input type="number" id="valor" placeholder="Digite o valor do produto..." />
+            <input type="number" id="quantidade" placeholder="Quantidade do produto..." />
+            <div class="ButtonIndex">
+            <input type="button" id="BtnAtualizar" onclick="produto.salvar()" value="Enviar!" />
+            <div class="BtnCancelar">
+            <input type="button" onclick="produto.cancelar()" value="Cancelar!" />
+
+        </div>
+            </div>
+            <div id="resultado"></div>
+        </form>
+        <table class="table-mobile">
+            <thead>
+                <th>ID</th>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Valor</th>
+                <th>Deletar</th>
+                <th>Editar</th>
+                
+            </thead>
+            <tbody id="tbody">
+                <tr>
+                    <td>1</td>
+                    <td>Mesa</td>
+                    <td>3</td>
+                    <td>1900</td> 
+                    <td>🗑️</td>
+                    <td>✏️</td> 
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Carro</td>
+                    <td>1</td>
+                    <td>19000</td> 
+                    <td>🗑️</td>
+                    <td>✏️</td> 
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Geladeira</td>
+                    <td>2</td>
+                    <td>4500</td> 
+                    <td>🗑️</td>
+                    <td>✏️</td> 
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Armários</td>
+                    <td>10</td>
+                    <td>5900</td> 
+                    <td>🗑️</td>
+                    <td>✏️</td> 
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
 </section>
 </body>
 <script src="script.js"></script>
-</html>
+
+</html> 
